@@ -19,6 +19,13 @@ VITE_API_TOKEN=
 ```
 
 ### Instructions
+### Setup has been automated and requires only docker on your local machine
+In order to start app run:
+```
+docker compose up
+```
+
+### If you don't have docker:
 #### In order to setup backend:
 ```
 cd backend
@@ -37,5 +44,6 @@ cd frontend
 npm install
 npm run dev
 ```
+
 
 **Voilà! Enjoy your cocktail and meal!**

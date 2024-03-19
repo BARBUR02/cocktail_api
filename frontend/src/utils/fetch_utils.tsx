@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = "http://127.0.0.1:8000/api/v1"
+const BASE_URL = "http://0.0.0.0:80/api/v1"
 const COCKTAIL_DETAIL_API_URL = `${BASE_URL}/cocktail-details/`
 const MEAL_RECOMMENDATIONS_API_URL = `${BASE_URL}/meal-for-cocktail`
 
